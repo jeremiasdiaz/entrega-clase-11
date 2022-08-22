@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>clase11-Bootstrap</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <!--  INICIO DEL BODY -->
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">MUSIC J.D</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active f-family georgia,serif"
+                  aria-current="page"
+                  href="./pages/tipos-de-instrumento.html"
+                  >Tipos de Instrumentos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <figure>
+        <blockquote class="blockquote p-2">
+          <h1>MUSICA</h1>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Te explicamos qué es la música,
+          <cite title="Source Title"
+            >cuál es su historia, elementos y otras características.</cite
+          >
+        </figcaption>
+      </figure>
+      <!-- carousel de bt -->
+      <section
+        class="d-flex nowrap a-items center container parrafo-carousel mt-5 mx-auto pb-5"
+      >
+        <div class="col">
+          <p class="">
+            La música es una de las llamadas Bellas Artes, es decir, a un género
+            artístico, que consiste en conseguir efectos estéticos a través de
+            la manipulación de sonidos vocales o instrumentales, conforme a
+            estándares culturales de ritmo, armonía y melodía.
+          </p>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide col"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1556379118-7034d926d258?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW5zdHJ1bWVudG9zJTIwbXVzaWNhbGVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                class="d-block w-100"
+                alt="Instrumentos"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aW5zdHJ1bWVudG9zJTIwbXVzaWNhbGVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                class="d-block w-100"
+                alt="Instrumentos"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <p class="lead">
+        El origen de la música se encuentra cubierto de misterio, aunque se
+        estima comenzó en la prehistoria de la humanidad y se lo vincula con los
+        ritos de apareamiento y con el trabajo colectivo. La danza y el canto
+        parecen haber estado desde el principio asociados al modo en que el ser
+        humano comprende el mundo. De hecho, formaban parte de sus
+        manifestaciones religiosas o chamánicas, como rituales de sanación,
+        cantos de batalla o de cacería, o bailes para atraer la lluvia. Los
+        instrumentos más antiguos son flautas de hueso de más de 30.000 años de
+        antigüedad. Mucho más tarde, en Sumeria del 3.000 a. C. existían
+        instrumentos primitivos de percusión y de cuerdas. Por su parte, en el
+        Imperio Nuevo del Antiguo Egipto empleaban escalas de siete sonidos
+        distintos, y diversos instrumentos como el arpa, el oboe y los tambores.
+        Sin embargo, los primeros tratados sobre la música de Occidente son de
+        origen griego, ya que los antiguos helenos le daban mucha importancia al
+        valor educativo y moral de la música, vinculada siempre con el poema
+        trágico y la mitología. Su equivalente oriental se encuentra en la
+        Antigua China, cuya música respondía ya en el siglo IV a. C. a una
+        escala cíclica propia. Posteriormente, la música en Occidente evolucionó
+        de la mano del pensamiento religioso medieval, otorgando al canto
+        gregoriano un lugar destacado como canto litúrgico de la Iglesia
+        Católica. En el Renacimiento aparecieron nuevos estilos en Europa, dando
+        así origen a la música flamenca, a la chanson francesa y a la música
+        barroca. Luego se regresó al clasicismo, bajo cuya influencia nació la
+        célebre música clásica europea interpretada por orquestas. A este
+        período pertenecen los famosos Bach, Haydn, Mozart y Beethoven. Con el
+        Romanticismo, se crearon nuevos registros y nuevas sensibilidades
+        vinculadas a lo local y a la cultura popular. Tras distintas variantes
+        programáticas, impresionistas y modernistas, se dio inicio a la etapa
+        contemporánea de la música, caracterizada por una enorme diversidad y
+        una constante exploración de los géneros musicales.
+      </p>
+    </main>
+    <footer class="color-footer">
+      <section>
+        <ul class="nav justify-content-center footer-dark">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Youtube</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instagram</a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

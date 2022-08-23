@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+.color-footer {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+/* INDEX */
 .parrafo-carousel {
     align-items: center;
     padding-bottom: 15;
 }
 
-.color-footer {
-    background-color: black;
-    bottom: 0;
-    width: 100%;
+/* TIPOS DE INSTRUMENTOS */
+.tituloTiposInstrumentos {
+    font-family: sans-serif;
 }

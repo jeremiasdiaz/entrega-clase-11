@@ -14,3 +14,9 @@
     bottom: 0;
     width: 100%;
 }
+
+/* CONTACTO */
+.contacto {
+    background-color: rgb(76, 72, 72);
+    color: rgb(118, 192, 170);
+}

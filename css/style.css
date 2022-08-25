@@ -14,3 +14,14 @@
     bottom: 0;
     width: 100%;
 }
+
+/* INFO */
+.titulo-1 {
+    border-bottom: 1px solid #a2a9b1;
+    font-family: 'Georgia', 'Times', serif;
+}
+
+.titulo-2 {
+    border-bottom: 1px solid #a2a9b1;
+    font-family: 'Georgia', 'Times', serif;
+}

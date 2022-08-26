@@ -25,3 +25,10 @@
     border-bottom: 1px solid #a2a9b1;
     font-family: 'Georgia', 'Times', serif;
 }
+
+@media(max-width:613px) {
+    section img {
+        max-width: 300px;
+        max-height: 400px;
+    }
+}

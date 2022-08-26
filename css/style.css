@@ -14,3 +14,16 @@
     bottom: 0;
     width: 100%;
 }
+
+@media(max-width:426px) {
+    .seccion-carousel {
+        flex-direction: column;
+
+    }
+
+    .lead {
+        font-size: 10px;
+    }
+
+
+}

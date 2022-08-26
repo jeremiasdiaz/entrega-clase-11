@@ -20,3 +20,12 @@
 .tituloTiposInstrumentos {
     font-family: sans-serif;
 }
+
+@media(max-width:426px) {
+    .contenido-carta {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}

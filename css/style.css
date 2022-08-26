@@ -20,3 +20,10 @@
     background-color: rgb(76, 72, 72);
     color: rgb(118, 192, 170);
 }
+
+@media(max-width:565px) {
+    .formulario {
+        flex-direction: column;
+    }
+
+}
